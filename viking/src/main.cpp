@@ -7,10 +7,10 @@ float speed_x=0, speed_y=0, speed_w=0;
 const int pinAIN1=22, pinAIN2=23, pinASpeed=4, pinAEncoder1=2, pinAEncoder2=24;
 Motor motorA(pinAIN1, pinAIN2, pinASpeed, pinAEncoder1, pinAEncoder2, 0);
 
-const int pinBIN1=25, pinBIN2=26, pinBSpeed=5, pinBEncoder1=3, pinBEncoder2=27;
+const int pinBIN1=26, pinBIN2=27, pinBSpeed=5, pinBEncoder1=3, pinBEncoder2=25;
 Motor motorB(pinBIN1, pinBIN2, pinBSpeed, pinBEncoder1, pinBEncoder2, 0);
 
-const int pinCIN1=28, pinCIN2=29, pinCSpeed=6, pinCEncoder1=18, pinCEncoder2=30;
+const int pinCIN1=30, pinCIN2=31, pinCSpeed=6, pinCEncoder1=18, pinCEncoder2=29;
 Motor motorC(pinCIN1, pinCIN2, pinCSpeed, pinCEncoder1, pinCEncoder2, 0);
 
 void parse_string(String inputString, float* speed_X, float* speed_Y, float* speed_W) {
